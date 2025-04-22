@@ -73,7 +73,13 @@
     <Content Include="BM\FreqFl.aspx" />
     <Content Include="ChangePassword.aspx" />
     <Content Include="Global.asax" />
+    <Content Include="LOB\CancelRes.aspx" />
+    <Content Include="LOB\ConfirmRes.aspx" />
+    <Content Include="LOB\CreateRes.aspx" />
+    <Content Include="LOB\QueryStat.aspx" />
     <Content Include="Logoff.aspx" />
+    <Content Include="NA\ManageDatabase.aspx" />
+    <Content Include="NA\ManageUsers.aspx" />
     <Content Include="skyShark.png" />
     <Content Include="StyleSheet.css" />
     <Content Include="Web.config" />
@@ -118,12 +124,54 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="LOB\CancelRes.aspx.cs">
+      <DependentUpon>CancelRes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LOB\CancelRes.aspx.designer.cs">
+      <DependentUpon>CancelRes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LOB\ConfirmRes.aspx.cs">
+      <DependentUpon>ConfirmRes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LOB\ConfirmRes.aspx.designer.cs">
+      <DependentUpon>ConfirmRes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LOB\CreateRes.aspx.cs">
+      <DependentUpon>CreateRes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LOB\CreateRes.aspx.designer.cs">
+      <DependentUpon>CreateRes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LOB\QueryStat.aspx.cs">
+      <DependentUpon>QueryStat.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LOB\QueryStat.aspx.designer.cs">
+      <DependentUpon>QueryStat.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Logoff.aspx.cs">
       <DependentUpon>Logoff.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Logoff.aspx.designer.cs">
       <DependentUpon>Logoff.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NA\ManageDatabase.aspx.cs">
+      <DependentUpon>ManageDatabase.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NA\ManageDatabase.aspx.designer.cs">
+      <DependentUpon>ManageDatabase.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NA\ManageUsers.aspx.cs">
+      <DependentUpon>ManageUsers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NA\ManageUsers.aspx.designer.cs">
+      <DependentUpon>ManageUsers.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Site1.Master.cs">
@@ -153,9 +201,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="LOB\" />
     <Folder Include="Models\" />
-    <Folder Include="NA\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

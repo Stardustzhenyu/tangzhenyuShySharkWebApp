@@ -16,7 +16,7 @@
         <table>
             <tr>
                 <td colspan="3">
-                    <asp:Label ID="lblMessage" runat="server" Text="lblMessage" ForeColor="Red"></asp:Label></td>
+                    <asp:Label ID="lblMessage" runat="server" Text="" ForeColor="Red"></asp:Label></td>
             </tr>
             <tr>
                 <td>
@@ -24,7 +24,7 @@
                 <td>
                     <asp:TextBox ID="txtUserName" runat="server"></asp:TextBox></td>
                 <td>
-                    <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ErrorMessage="Please Specify a valid UserName" ControlToValidate="txtUserName"></asp:RequiredFieldValidator> 
+                    <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ErrorMessage="Please Specify a valid UserName" ControlToValidate="txtUserName" BorderColor="White" ForeColor="#FF3300"></asp:RequiredFieldValidator> 
                 </td>
             </tr>
             <tr>
@@ -33,13 +33,13 @@
                 <td>
                     <asp:TextBox ID="txtPassword" runat="server" TextMode="Password"></asp:TextBox></td>
                 <td>
-                    <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="txtPassword" ErrorMessage="Please Specify a valid Password"></asp:RequiredFieldValidator>
+                    <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="txtPassword" ErrorMessage="Please Specify a valid Password" BorderColor="White" ForeColor="#FF3300"></asp:RequiredFieldValidator>
                 </td>
             </tr>
             <tr>
                 <td></td>
                 <td>
-                    <asp:Button ID="btnSumbit" runat="server" Text="Sumbit" />
+                    <asp:Button ID="btnSumbit" runat="server" Text="Sumbit" OnClick="btnSumbit_Click" />
                 </td>
                 <td></td>
             </tr>

@@ -36,7 +36,7 @@
                 <tr>
                     <td></td>
                     <td>
-                    <asp:Button ID="btnSumbit" runat="server" Text="Sumbit" /></td>
+                    <asp:Button ID="btnSumbit" runat="server" Text="Sumbit" OnClick="btnSumbit_Click" /></td>
                     <td></td>
                 </tr>
                 <tr>
