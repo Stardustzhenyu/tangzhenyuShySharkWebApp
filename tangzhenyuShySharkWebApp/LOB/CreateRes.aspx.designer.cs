@@ -87,6 +87,15 @@ namespace tangzhenyuShySharkWebApp.LOB
         protected global::System.Web.UI.WebControls.Label Label5;
 
         /// <summary>
+        /// lblMessageStep1 控件。
+        /// </summary>
+        /// <remarks>
+        /// 自动生成的字段。
+        /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblMessageStep1;
+
+        /// <summary>
         /// Label2 控件。
         /// </summary>
         /// <remarks>
@@ -96,13 +105,13 @@ namespace tangzhenyuShySharkWebApp.LOB
         protected global::System.Web.UI.WebControls.Label Label2;
 
         /// <summary>
-        /// txtFlNum 控件。
+        /// txtFltNo 控件。
         /// </summary>
         /// <remarks>
         /// 自动生成的字段。
         /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtFlNum;
+        protected global::System.Web.UI.WebControls.TextBox txtFltNo;
 
         /// <summary>
         /// Label3 控件。
@@ -114,13 +123,13 @@ namespace tangzhenyuShySharkWebApp.LOB
         protected global::System.Web.UI.WebControls.Label Label3;
 
         /// <summary>
-        /// ListBox1 控件。
+        /// lstClass 控件。
         /// </summary>
         /// <remarks>
         /// 自动生成的字段。
         /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ListBox ListBox1;
+        protected global::System.Web.UI.WebControls.ListBox lstClass;
 
         /// <summary>
         /// Label4 控件。
@@ -132,13 +141,13 @@ namespace tangzhenyuShySharkWebApp.LOB
         protected global::System.Web.UI.WebControls.Label Label4;
 
         /// <summary>
-        /// Cal1 控件。
+        /// Calendar1 控件。
         /// </summary>
         /// <remarks>
         /// 自动生成的字段。
         /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Calendar Cal1;
+        protected global::System.Web.UI.WebControls.Calendar Calendar1;
 
         /// <summary>
         /// btnNext 控件。
@@ -303,6 +312,15 @@ namespace tangzhenyuShySharkWebApp.LOB
         protected global::System.Web.UI.WebControls.Label Label13;
 
         /// <summary>
+        /// lblMessageStep3 控件。
+        /// </summary>
+        /// <remarks>
+        /// 自动生成的字段。
+        /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblMessageStep3;
+
+        /// <summary>
         /// Label14 控件。
         /// </summary>
         /// <remarks>
@@ -330,13 +348,13 @@ namespace tangzhenyuShySharkWebApp.LOB
         protected global::System.Web.UI.WebControls.Label Label15;
 
         /// <summary>
-        /// txtEmail 控件。
+        /// txtEMail 控件。
         /// </summary>
         /// <remarks>
         /// 自动生成的字段。
         /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtEmail;
+        protected global::System.Web.UI.WebControls.TextBox txtEMail;
 
         /// <summary>
         /// btnCreate 控件。

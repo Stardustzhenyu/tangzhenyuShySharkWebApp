@@ -53,10 +53,10 @@
                     <asp:Label ID="Label1" runat="server" Text="Flight Number"></asp:Label>
                 </td>
                 <td>
-                    <asp:TextBox ID="txtFilghtNumber" runat="server"></asp:TextBox>
+                    <asp:TextBox ID="txtFlightNumber" runat="server"></asp:TextBox>
                 </td>
                 <td>
-                    <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="txtFilghtNumber" ErrorMessage="Required Flight Number" ForeColor="Red"></asp:RequiredFieldValidator>
+                    <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="txtFlightNumber" ErrorMessage="Required Flight Number" ForeColor="Red"></asp:RequiredFieldValidator>
                 </td>
             </tr>
             <tr>
@@ -76,10 +76,10 @@
                     <asp:Label ID="Label3" runat="server" Text="Origin"></asp:Label>
                 </td>
                 <td>
-                    <asp:TextBox ID="txtOrigin" runat="server"></asp:TextBox>
+                    <asp:TextBox ID="txtOriginPlace" runat="server"></asp:TextBox>
                 </td>
                 <td>
-                    <asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server" ControlToValidate="txtOrigin" ErrorMessage="Required Flight Origin" ForeColor="Red"></asp:RequiredFieldValidator>
+                    <asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server" ControlToValidate="txtOriginPlace" ErrorMessage="Required Flight Origin" ForeColor="Red"></asp:RequiredFieldValidator>
                 </td>
             </tr>
             <tr>
@@ -88,10 +88,10 @@
                 </td>
                 <td class="auto-style1">
                     <asp:Calendar ID="Calendar2" runat="server"></asp:Calendar>
-                    <asp:TextBox ID="txtArrivalTime" runat="server"></asp:TextBox>
+                    <asp:TextBox ID="txtArivaleTime" runat="server"></asp:TextBox>
                     (HH:MM)</td>
                 <td class="auto-style1">
-                    <asp:RequiredFieldValidator ID="RequiredFieldValidator4" runat="server" ControlToValidate="txtArrivalTime" ErrorMessage="Required Arrival Time" ForeColor="Red"></asp:RequiredFieldValidator>
+                    <asp:RequiredFieldValidator ID="RequiredFieldValidator4" runat="server" ControlToValidate="txtArivaleTime" ErrorMessage="Required Arrival Time" ForeColor="Red"></asp:RequiredFieldValidator>
                     </td>
             </tr>
             <tr>
@@ -121,10 +121,10 @@
                     <asp:Label ID="Label7" runat="server" Text="Number of Seats(Executive)"></asp:Label>
                 </td>
                 <td>
-                    <asp:TextBox ID="txtNoofSeatsExecutive" runat="server"></asp:TextBox>
+                    <asp:TextBox ID="txtNoOfExecSeats" runat="server"></asp:TextBox>
                 </td>
                 <td>
-                    <asp:RequiredFieldValidator ID="RequiredFieldValidator7" runat="server" ControlToValidate="txtNoofSeatsExecutive" ErrorMessage="Required Number of Seats(Executive)" ForeColor="Red"></asp:RequiredFieldValidator>
+                    <asp:RequiredFieldValidator ID="RequiredFieldValidator7" runat="server" ControlToValidate="txtNoOfExecSeats" ErrorMessage="Required Number of Seats(Executive)" ForeColor="Red"></asp:RequiredFieldValidator>
                 </td>
             </tr>
             <tr>
@@ -143,10 +143,10 @@
                     <asp:Label ID="Label9" runat="server" Text="Number of Seats(Business)"></asp:Label>
                 </td>
                 <td>
-                    <asp:TextBox ID="txtNoOfBussSeats" runat="server"></asp:TextBox>
+                    <asp:TextBox ID="txtNoOfBusiSeats" runat="server"></asp:TextBox>
                 </td>
                 <td>
-                    <asp:RequiredFieldValidator ID="RequiredFieldValidator9" runat="server" ControlToValidate="txtNoOfBussSeats" ErrorMessage="Required Number of Seats(Business)" ForeColor="Red"></asp:RequiredFieldValidator>
+                    <asp:RequiredFieldValidator ID="RequiredFieldValidator9" runat="server" ControlToValidate="txtNoOfBusiSeats" ErrorMessage="Required Number of Seats(Business)" ForeColor="Red"></asp:RequiredFieldValidator>
                 </td>
             </tr>
             <tr>
@@ -154,17 +154,17 @@
                     <asp:Label ID="Label10" runat="server" Text="Business Class Fares"></asp:Label>
                 </td>
                 <td class="auto-style1">
-                    <asp:TextBox ID="txtBussFare" runat="server"></asp:TextBox>
+                    <asp:TextBox ID="txtBusiFares" runat="server"></asp:TextBox>
                 </td>
                 <td class="auto-style1">
-                    <asp:RequiredFieldValidator ID="RequiredFieldValidator10" runat="server" ControlToValidate="txtBussFare" ErrorMessage="Required Business Class Fares" ForeColor="Red"></asp:RequiredFieldValidator>
+                    <asp:RequiredFieldValidator ID="RequiredFieldValidator10" runat="server" ControlToValidate="txtBusiFares" ErrorMessage="Required Business Class Fares" ForeColor="Red"></asp:RequiredFieldValidator>
                 </td>
             </tr>
             <tr>
                 <td></td>
                 <td>
-                    <asp:Button ID="btnSubmit" runat="server" Text="Submit" />
-                    <asp:Button ID="btnCancle" runat="server" Text="Cancle" /></td>
+                    <asp:Button ID="btnSubmit" runat="server" Text="Submit" OnClick="btnSubmit_Click" />
+                    <asp:Button ID="btnCancle" runat="server" Text="Cancle" OnClick="btnCancle_Click" /></td>
                 <td></td>
             </tr>
             <tr>

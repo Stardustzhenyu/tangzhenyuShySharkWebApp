@@ -46,7 +46,7 @@
                     <td></td>
                 </tr>
             </table>
-            <asp:Wizard ID="Wizard1" runat="server" BackColor="#F7F6F3" BorderColor="#CCCCCC" BorderStyle="Solid" BorderWidth="1px" Font-Names="Verdana" Font-Size="0.8em" ActiveStepIndex="0">
+            <asp:Wizard ID="Wizard1" runat="server" BackColor="#F7F6F3" BorderColor="#CCCCCC" BorderStyle="Solid" BorderWidth="1px" Font-Names="Verdana" Font-Size="0.8em" ActiveStepIndex="0" OnFinishButtonClick="Wizard1_FinishButtonClick" OnNextButtonClick="Wizard1_NextButtonClick">
                 <HeaderStyle BackColor="#5D7B9D" BorderStyle="Solid" Font-Bold="True" Font-Size="0.9em" ForeColor="White" HorizontalAlign="Left" />
                 <NavigationButtonStyle BackColor="#FFFBFF" BorderColor="#CCCCCC" BorderStyle="Solid" BorderWidth="1px" Font-Names="Verdana" Font-Size="0.8em" ForeColor="#284775" />
                 <SideBarButtonStyle BorderWidth="0px" Font-Names="Verdana" ForeColor="White" />
@@ -62,11 +62,17 @@
                                     <asp:Label ID="Label5" runat="server" Text="Step 1: Specify Ticket Details"></asp:Label></td>
                                  <td></td>
                             </tr>
+                             <tr>
+    <td colspan="3">
+        <asp:Label ID="lblMessageStep1" runat="server" Text="" ForeColor="Red" Font-Bold="true" ></asp:Label></td>
+    <td></td>
+    
+</tr>
                             <tr>
                                 <td>
                                     <asp:Label ID="Label2" runat="server" Text="Flight Number"></asp:Label></td>
                                 <td>
-                                    <asp:TextBox ID="txtFlNum" runat="server"></asp:TextBox></td>
+                                    <asp:TextBox ID="txtFltNo" runat="server"></asp:TextBox></td>
                                 <td></td>
                                 <td></td>
                             </tr>
@@ -74,7 +80,7 @@
                                 <td>
                                     <asp:Label ID="Label3" runat="server" Text="Class"></asp:Label></td>
                                 <td>
-                                    <asp:ListBox ID="ListBox1" runat="server">
+                                    <asp:ListBox ID="lstClass" runat="server">
                                         <asp:ListItem>Executive</asp:ListItem>
                                         <asp:ListItem>Business</asp:ListItem>
                                     </asp:ListBox></td>
@@ -85,7 +91,7 @@
                                 <td>
                                     <asp:Label ID="Label4" runat="server" Text="Date"></asp:Label></td>
                                 <td>
-                                    <asp:Calendar ID="Cal1" runat="server" BackColor="White" BorderColor="Black" BorderStyle="Double" BorderWidth="2px" DayNameFormat="FirstTwoLetters"></asp:Calendar>
+                                    <asp:Calendar ID="Calendar1" runat="server" BackColor="White" BorderColor="Black" BorderStyle="Double" BorderWidth="2px" DayNameFormat="FirstTwoLetters"></asp:Calendar>
                                 </td>
                                 <td></td>
                                 <td></td>
@@ -176,6 +182,11 @@
                                     <asp:Label ID="Label13" runat="server" Text="Step 3: Confirm Booking"></asp:Label>
                                 </td>
                             </tr>
+                                <tr>
+    <td colspan="3">
+        <asp:Label ID="lblMessageStep3" runat="server" Text="" ForeColor="Red" Font-Bold="true"></asp:Label></td>
+    
+</tr>
                             <tr>
                                 <td>
                                     <asp:Label ID="Label14" runat="server" Text="Name"></asp:Label></td>
@@ -188,7 +199,7 @@
                                 <td>
                                     <asp:Label ID="Label15" runat="server" Text="Email"></asp:Label></td>
                                 <td>
-                                    <asp:TextBox ID="txtEmail" runat="server"></asp:TextBox></td>
+                                    <asp:TextBox ID="txtEMail" runat="server"></asp:TextBox></td>
                                 <td></td>
                                 <td></td>
                             </tr>

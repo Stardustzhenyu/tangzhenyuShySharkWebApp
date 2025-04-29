@@ -87,6 +87,15 @@ namespace tangzhenyuShySharkWebApp.LOB
         protected global::System.Web.UI.WebControls.Label Label2;
 
         /// <summary>
+        /// lblMessage 控件。
+        /// </summary>
+        /// <remarks>
+        /// 自动生成的字段。
+        /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblMessage;
+
+        /// <summary>
         /// Label3 控件。
         /// </summary>
         /// <remarks>
@@ -96,13 +105,13 @@ namespace tangzhenyuShySharkWebApp.LOB
         protected global::System.Web.UI.WebControls.Label Label3;
 
         /// <summary>
-        /// txtFlightNo 控件。
+        /// txtFltNo 控件。
         /// </summary>
         /// <remarks>
         /// 自动生成的字段。
         /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtFlightNo;
+        protected global::System.Web.UI.WebControls.TextBox txtFltNo;
 
         /// <summary>
         /// Label4 控件。
@@ -132,13 +141,13 @@ namespace tangzhenyuShySharkWebApp.LOB
         protected global::System.Web.UI.WebControls.Label Label5;
 
         /// <summary>
-        /// caDepDate 控件。
+        /// calDepDate 控件。
         /// </summary>
         /// <remarks>
         /// 自动生成的字段。
         /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Calendar caDepDate;
+        protected global::System.Web.UI.WebControls.Calendar calDepDate;
 
         /// <summary>
         /// btnFStatSubmit 控件。
@@ -166,6 +175,15 @@ namespace tangzhenyuShySharkWebApp.LOB
         /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label6;
+
+        /// <summary>
+        /// lblTicketStatus 控件。
+        /// </summary>
+        /// <remarks>
+        /// 自动生成的字段。
+        /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblTicketStatus;
 
         /// <summary>
         /// Label7 控件。

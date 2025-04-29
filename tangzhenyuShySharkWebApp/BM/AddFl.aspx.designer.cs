@@ -60,13 +60,13 @@ namespace tangzhenyuShySharkWebApp.BM
         protected global::System.Web.UI.WebControls.Label Label1;
 
         /// <summary>
-        /// txtFilghtNumber 控件。
+        /// txtFlightNumber 控件。
         /// </summary>
         /// <remarks>
         /// 自动生成的字段。
         /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtFilghtNumber;
+        protected global::System.Web.UI.WebControls.TextBox txtFlightNumber;
 
         /// <summary>
         /// RequiredFieldValidator1 控件。
@@ -123,13 +123,13 @@ namespace tangzhenyuShySharkWebApp.BM
         protected global::System.Web.UI.WebControls.Label Label3;
 
         /// <summary>
-        /// txtOrigin 控件。
+        /// txtOriginPlace 控件。
         /// </summary>
         /// <remarks>
         /// 自动生成的字段。
         /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtOrigin;
+        protected global::System.Web.UI.WebControls.TextBox txtOriginPlace;
 
         /// <summary>
         /// RequiredFieldValidator3 控件。
@@ -159,13 +159,13 @@ namespace tangzhenyuShySharkWebApp.BM
         protected global::System.Web.UI.WebControls.Calendar Calendar2;
 
         /// <summary>
-        /// txtArrivalTime 控件。
+        /// txtArivaleTime 控件。
         /// </summary>
         /// <remarks>
         /// 自动生成的字段。
         /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtArrivalTime;
+        protected global::System.Web.UI.WebControls.TextBox txtArivaleTime;
 
         /// <summary>
         /// RequiredFieldValidator4 控件。
@@ -240,13 +240,13 @@ namespace tangzhenyuShySharkWebApp.BM
         protected global::System.Web.UI.WebControls.Label Label7;
 
         /// <summary>
-        /// txtNoofSeatsExecutive 控件。
+        /// txtNoOfExecSeats 控件。
         /// </summary>
         /// <remarks>
         /// 自动生成的字段。
         /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtNoofSeatsExecutive;
+        protected global::System.Web.UI.WebControls.TextBox txtNoOfExecSeats;
 
         /// <summary>
         /// RequiredFieldValidator7 控件。
@@ -294,13 +294,13 @@ namespace tangzhenyuShySharkWebApp.BM
         protected global::System.Web.UI.WebControls.Label Label9;
 
         /// <summary>
-        /// txtNoOfBussSeats 控件。
+        /// txtNoOfBusiSeats 控件。
         /// </summary>
         /// <remarks>
         /// 自动生成的字段。
         /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtNoOfBussSeats;
+        protected global::System.Web.UI.WebControls.TextBox txtNoOfBusiSeats;
 
         /// <summary>
         /// RequiredFieldValidator9 控件。
@@ -321,13 +321,13 @@ namespace tangzhenyuShySharkWebApp.BM
         protected global::System.Web.UI.WebControls.Label Label10;
 
         /// <summary>
-        /// txtBussFare 控件。
+        /// txtBusiFares 控件。
         /// </summary>
         /// <remarks>
         /// 自动生成的字段。
         /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtBussFare;
+        protected global::System.Web.UI.WebControls.TextBox txtBusiFares;
 
         /// <summary>
         /// RequiredFieldValidator10 控件。
